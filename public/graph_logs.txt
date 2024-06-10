@@ -90,3 +90,4 @@
 [2026-05-25 19:38:07 +0530] Commit: upgrade page utility
 [2024-09-22 19:51:26 +0530] Commit: format the component error
 [2025-12-06 11:16:15 +0530] Commit: adjust a hook error
+[2024-06-10 13:14:55 +0530] Commit: clean the theme api
