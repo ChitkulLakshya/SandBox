@@ -97,3 +97,4 @@
 [2024-08-25 11:22:25 +0530] Commit: optimize new readme theme
 [2025-04-30 12:14:03 +0530] Commit: implement layout check
 [2024-09-02 13:32:09 +0530] Commit: secure a code login
+[2024-10-03 20:54:03 +0530] Commit: format a code styles
