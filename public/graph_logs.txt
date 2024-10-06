@@ -56,3 +56,4 @@
 [2024-10-28 14:10:14 +0530] Commit: adjust theme code
 [2024-09-02 12:25:37 +0530] Commit: polish a hook styles
 [2024-09-27 13:18:36 +0530] Commit: update our bug code
+[2024-10-06 21:17:46 +0530] Commit: format script component
