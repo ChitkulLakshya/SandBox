@@ -91,3 +91,4 @@
 [2024-09-22 19:51:26 +0530] Commit: format the component error
 [2025-12-06 11:16:15 +0530] Commit: adjust a hook error
 [2024-06-10 13:14:55 +0530] Commit: clean the theme api
+[2024-10-12 11:36:05 +0530] Commit: clean config login
