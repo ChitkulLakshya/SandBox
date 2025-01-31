@@ -3,3 +3,4 @@
 [2024-07-19 16:43:07 +0530] Commit: optimize design styles
 [2025-02-18 13:39:50 +0530] Commit: improve the test layout
 [2024-10-28 18:05:43 +0530] Commit: polish code docs
+[2025-01-31 11:57:36 +0530] Commit: polish our error bug
