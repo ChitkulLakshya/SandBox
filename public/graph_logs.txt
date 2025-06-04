@@ -13,3 +13,4 @@
 [2024-10-27 19:31:33 +0530] Commit: update a script api
 [2026-02-25 21:16:52 +0530] Commit: fix server config
 [2026-05-20 14:09:51 +0530] Commit: add database config
+[2025-06-04 16:19:41 +0530] Commit: fix a login client
