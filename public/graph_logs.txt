@@ -15,3 +15,4 @@
 [2026-05-20 14:09:51 +0530] Commit: add database config
 [2025-06-04 16:19:41 +0530] Commit: fix a login client
 [2026-01-31 21:49:48 +0530] Commit: fix the test api
+[2025-07-24 19:48:11 +0530] Commit: secure client bug
