@@ -7,8 +7,8 @@ import { Heart } from "lucide-react";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: "SANDBOX | Educational API Hub",
-  description: "Educational sandbox for Google OAuth2 and Static API Keys",
+  title: "SANDBOX | Master OAuth2 & APIs",
+  description: "Advanced educational sandbox for mastering secure authentication and API integration.",
 };
 
 export default function RootLayout({
