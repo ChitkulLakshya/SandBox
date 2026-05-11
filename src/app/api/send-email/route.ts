@@ -11,7 +11,7 @@ import { NextRequest, NextResponse } from 'next/server';
 
 export async function POST(req: NextRequest) {
   try {
-    const { to, subject, message, clientId, clientSecret, refreshToken } = await req.json();
+    const { to, subject, message, clientId, clientSecret, refreshToken, userEmail } = await req.json();
 
     // 1. Fallback to environment variables if UI fields are empty
     // In a real app, you would ALWAYS use environment variables.
@@ -55,7 +55,7 @@ export async function POST(req: NextRequest) {
       service: 'gmail',
       auth: {
         type: 'OAuth2',
-        user: 'your-email@gmail.com', // Note: Gmail usually ignores this and uses the account linked to the Refresh Token
+        user: userEmail || process.env.GOOGLE_EMAIL, // Use provided email or fallback
         clientId: CLIENT_ID,
         clientSecret: CLIENT_SECRET,
         refreshToken: REFRESH_TOKEN,
@@ -65,7 +65,7 @@ export async function POST(req: NextRequest) {
 
     // 6. Define the email options
     const mailOptions = {
-      from: `OAuth2 Sandbox <${CLIENT_ID}>`, // The 'from' is often overridden by Gmail
+      from: `OAuth2 Sandbox <${userEmail || 'no-reply@gmail.com'}>`, // Use a valid email format
       to: to,
       subject: subject,
       text: message,
