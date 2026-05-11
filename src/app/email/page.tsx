@@ -11,6 +11,7 @@ export default function EmailPage() {
     clientId: '',
     clientSecret: '',
     refreshToken: '',
+    userEmail: '',
   });
 
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
@@ -139,6 +140,13 @@ export default function EmailPage() {
               In a real application, these would be securely stored in your <code className="text-white bg-white/10 px-1">.env</code> file. Paste them here to test the API.
             </p>
             <div className="space-y-4">
+              <input
+                type="email"
+                placeholder="Your Gmail Address"
+                value={formData.userEmail}
+                onChange={(e) => setFormData({ ...formData, userEmail: e.target.value })}
+                className="w-full bg-white/5 border border-white/5 rounded-lg px-3 py-2 text-xs text-white focus:outline-none"
+              />
               <input
                 type="text"
                 placeholder="Client ID"
