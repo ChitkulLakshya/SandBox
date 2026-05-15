@@ -21,3 +21,4 @@
 [2026-04-02 20:08:38 +0530] Commit: polish routing component
 [2026-02-26 15:10:33 +0530] Commit: repair the bug utility
 [2026-04-18 15:26:02 +0530] Commit: add login code
+[2026-05-15 17:17:12 +0530] Commit: remove design readme
