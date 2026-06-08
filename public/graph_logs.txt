@@ -22,3 +22,11 @@
 [2026-02-26 15:10:33 +0530] Commit: repair the bug utility
 [2026-04-18 15:26:02 +0530] Commit: add login code
 [2026-05-15 17:17:12 +0530] Commit: remove design readme
+[2025-05-22 14:14:42 +0530] Commit: update error component
+[2025-01-02 20:43:28 +0530] Commit: optimize bug test
+[2025-09-15 20:45:35 +0530] Commit: optimize utility check
+[2024-06-07 20:23:55 +0530] Commit: format routing error
+[2024-08-25 11:40:10 +0530] Commit: secure our api bug
+[2024-10-12 20:30:28 +0530] Commit: remove the script api
+[2026-05-25 16:17:10 +0530] Commit: change our login test
+[2024-08-20 21:28:16 +0530] Commit: secure database layout
