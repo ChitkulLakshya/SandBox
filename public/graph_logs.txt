@@ -110,3 +110,11 @@
 [2024-07-11 15:14:09 +0530] Commit: optimize auth check
 [2024-06-09 12:40:21 +0530] Commit: remove the docs error
 [2025-01-08 16:52:11 +0530] Commit: tweak login utility
+[2025-12-28 09:07:48 +0530] Commit: adjust the test script
+[2024-09-15 17:58:40 +0530] Commit: adjust test script
+[2025-02-28 18:19:12 +0530] Commit: tweak the database script
+[2026-02-21 09:36:27 +0530] Commit: optimize new docs api
+[2025-05-22 21:50:49 +0530] Commit: add layout client
+[2025-10-07 11:45:45 +0530] Commit: tweak a api client
+[2026-05-01 19:03:33 +0530] Commit: clean database client
+[2025-02-27 18:18:00 +0530] Commit: polish new routing code
